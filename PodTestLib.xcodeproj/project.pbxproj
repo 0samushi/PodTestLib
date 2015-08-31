@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0B740A221B94729300E51B40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B740A211B94729300E51B40 /* main.m */; };
-		0B740A251B94729300E51B40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B740A241B94729300E51B40 /* AppDelegate.m */; };
-		0B740A281B94729300E51B40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B740A271B94729300E51B40 /* ViewController.m */; };
-		0B740A2B1B94729300E51B40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B740A291B94729300E51B40 /* Main.storyboard */; };
 		0B740A2D1B94729300E51B40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B740A2C1B94729300E51B40 /* Images.xcassets */; };
 		0B740A301B94729300E51B40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B740A2E1B94729300E51B40 /* LaunchScreen.xib */; };
 		0B740A3C1B94729300E51B40 /* PodTestLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B740A3B1B94729300E51B40 /* PodTestLibTests.m */; };
+		0B740A461B94732A00E51B40 /* Hoge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B740A451B94732A00E51B40 /* Hoge.storyboard */; };
+		0B740A491B94733500E51B40 /* HogeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B740A481B94733500E51B40 /* HogeViewController.m */; };
+		0B740A4B1B94741500E51B40 /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B740A4A1B94741500E51B40 /* MyAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +30,16 @@
 		0B740A1C1B94729300E51B40 /* PodTestLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodTestLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B740A201B94729300E51B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B740A211B94729300E51B40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0B740A231B94729300E51B40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0B740A241B94729300E51B40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0B740A261B94729300E51B40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0B740A271B94729300E51B40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0B740A2A1B94729300E51B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B740A2C1B94729300E51B40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0B740A2F1B94729300E51B40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0B740A351B94729300E51B40 /* PodTestLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodTestLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B740A3A1B94729300E51B40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B740A3B1B94729300E51B40 /* PodTestLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodTestLibTests.m; sourceTree = "<group>"; };
+		0B740A451B94732A00E51B40 /* Hoge.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Hoge.storyboard; sourceTree = "<group>"; };
+		0B740A471B94733500E51B40 /* HogeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HogeViewController.h; sourceTree = "<group>"; };
+		0B740A481B94733500E51B40 /* HogeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HogeViewController.m; sourceTree = "<group>"; };
+		0B740A4A1B94741500E51B40 /* MyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAppDelegate.m; sourceTree = "<group>"; };
+		0B740A4C1B94742100E51B40 /* MyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAppDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +81,14 @@
 		0B740A1E1B94729300E51B40 /* PodTestLib */ = {
 			isa = PBXGroup;
 			children = (
-				0B740A231B94729300E51B40 /* AppDelegate.h */,
-				0B740A241B94729300E51B40 /* AppDelegate.m */,
-				0B740A261B94729300E51B40 /* ViewController.h */,
-				0B740A271B94729300E51B40 /* ViewController.m */,
-				0B740A291B94729300E51B40 /* Main.storyboard */,
 				0B740A2C1B94729300E51B40 /* Images.xcassets */,
 				0B740A2E1B94729300E51B40 /* LaunchScreen.xib */,
 				0B740A1F1B94729300E51B40 /* Supporting Files */,
+				0B740A451B94732A00E51B40 /* Hoge.storyboard */,
+				0B740A471B94733500E51B40 /* HogeViewController.h */,
+				0B740A481B94733500E51B40 /* HogeViewController.m */,
+				0B740A4A1B94741500E51B40 /* MyAppDelegate.m */,
+				0B740A4C1B94742100E51B40 /* MyAppDelegate.h */,
 			);
 			path = PodTestLib;
 			sourceTree = "<group>";
@@ -199,8 +199,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B740A2B1B94729300E51B40 /* Main.storyboard in Resources */,
 				0B740A301B94729300E51B40 /* LaunchScreen.xib in Resources */,
+				0B740A461B94732A00E51B40 /* Hoge.storyboard in Resources */,
 				0B740A2D1B94729300E51B40 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B740A281B94729300E51B40 /* ViewController.m in Sources */,
-				0B740A251B94729300E51B40 /* AppDelegate.m in Sources */,
 				0B740A221B94729300E51B40 /* main.m in Sources */,
+				0B740A491B94733500E51B40 /* HogeViewController.m in Sources */,
+				0B740A4B1B94741500E51B40 /* MyAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +244,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0B740A291B94729300E51B40 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0B740A2A1B94729300E51B40 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0B740A2E1B94729300E51B40 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HogeViewController.h
 //  PodTestLib
 //
 //  Created by 加藤直人 on 8/31/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HogeViewController : UIViewController
 
 @end
-
